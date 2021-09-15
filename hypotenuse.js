@@ -3,7 +3,7 @@ const hypotenuseBtn = document.querySelector("#hypotenuse-btn");
 const outputEl = document.querySelector("#output");
 
 function calculateSumOfSquares(a, b) {
-    const sumOfSquares = a*a + b*b;
+    const sumOfSquares = a * a + b * b;
     return sumOfSquares;
 }
 
