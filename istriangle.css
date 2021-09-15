@@ -38,7 +38,7 @@ div {
 input {
     padding: 5px 20px;
     margin: 30px;
-    border: 1px solid black;
+    border: 1px solid white;
     border-radius: 10px;
     background-color: #6D28D9;
     color: white;
@@ -50,7 +50,7 @@ h1 {
 
 button {
     background-color: #6D28D9;
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px 20px;
     color: white;
     margin: 20px;
