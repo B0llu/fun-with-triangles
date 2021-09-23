@@ -2,7 +2,7 @@ const quizForm = document.querySelector(".quiz-form");
 const submitAnswerBtn = document.querySelector("#submit-answer-btn");
 const outputEl = document.querySelector("#output");
 
-const correctAnswers = ["90°", "right angled"];
+const correctAnswers = ["A triangle is a three-sided polygon", "90°", "right angled", "35 cm2", "A = 62.35"];
 
 function calculateScore() {
     let score = 0;
