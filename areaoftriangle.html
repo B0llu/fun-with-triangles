@@ -19,9 +19,9 @@
     <div>
         <h1>Check Area of Triangle</h1>
         <label for="">Base </label>
-        <input type="number" min="0" class="measurment-input">
+        <input type="number" min="0" oninput="this.value = Math.abs(this.value)" class="measurment-input">
         <label for="">Height </label>
-        <input type="number" min="0" class="measurment-input">
+        <input type="number" min="0" oninput="this.value = Math.abs(this.value)" class="measurment-input">
         <br>
         <button id="check-area-btn">Check Area</button>
         <div id="output"></div>

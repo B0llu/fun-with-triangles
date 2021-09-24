@@ -19,10 +19,10 @@
     <div>
         <h1>Calculate Hypotenuse</h1>
         <label for="">A = </label>
-        <input type="number" min="0" class="side-input">
+        <input type="number" min="0" oninput="this.value = Math.abs(this.value)" class="side-input">
         <br>
         <label for="">B = </label>
-        <input type="number" min="0" class="side-input">
+        <input type="number" min="0" oninput="this.value = Math.abs(this.value)" class="side-input">
         <br>
         <button id="hypotenuse-btn">Calculate Hypotenuse</button>
         <div id="output"></div>
